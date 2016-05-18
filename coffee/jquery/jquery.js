@@ -1,8 +1,8 @@
 	$(function(){
 		var i=0;
-		var clone=$('.img li').first().clone();
+		var clone=$('.pic .img li').first().clone();
 		$('.pic .img').append(clone);
-		var size=$('.img li').size();
+		var size=$('.pic .img li').size();
 		for(var j=0;j<size-1;j++){
 			$('.pic .num').append('<li></li>');
 		}
