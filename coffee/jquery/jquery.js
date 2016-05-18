@@ -3,6 +3,7 @@
 		var clone=$('.pic .img li').first().clone();
 		$('.pic .img').append(clone);
 		var size=$('.pic .img li').size();
+		alert(size);
 		for(var j=0;j<size-1;j++){
 			$('.pic .num').append('<li></li>');
 		}
