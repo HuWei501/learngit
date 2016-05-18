@@ -6,7 +6,7 @@
 		for(var j=0;j<size-1;j++){
 			$('.pic .num').append('<li></li>');
 		}
-		$('.num li').first().addClass('on');
+		$('.pic .num li').first().addClass('on');
 
 		//滑动圆点
 		$('.pic .num li').hover(function(){
@@ -56,9 +56,9 @@
 			$(".pic .img").stop().animate({left:-i*1349},500);
 
 			if(i==size-1){
-				$('.num li').eq(0).addClass('on').siblings().removeClass('on');
+				$('.pic .num li').eq(0).addClass('on').siblings().removeClass('on');
 			}else{
-				$('.num li').eq(i).addClass('on').siblings().removeClass('on');
+				$('.pic .num li').eq(i).addClass('on').siblings().removeClass('on');
 			}
 		}
 
