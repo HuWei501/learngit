@@ -5,6 +5,7 @@
 }
 
 .top{
+	width: 1349px;
 	height: 80px;
 	border-top: 3px solid #C00;
 }
@@ -115,6 +116,7 @@
 }
 
 .center{
+	width: 1349px;
 	height: 368px;
 }
 
@@ -183,7 +185,7 @@
 }
 
 .wrap{
-/*	width: 100%;*/
+	width: 1349px;
 	height: 740px;
 	background-color: #F0F2F4;
 }
@@ -347,6 +349,7 @@
 }
 
 .bottom{
+	width: 1109px;
 	height: 220px;
 	background-color: #222;
 	padding-left: 240px;
@@ -399,6 +402,7 @@
 }
 
 .adress{
+	width: 1349px;
 	height: 45px;
 	background-color: #101010;
 }
