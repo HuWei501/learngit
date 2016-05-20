@@ -81,7 +81,11 @@
 .num li{
 	width: 12px; 
 	height: 12px; 
-	background-color: #fff; 
+	background-color: #fff;
+	-moz-border-radius:50%; 
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+	-webkit-border-radius:50%;
 	border-radius: 50%;
 	display: inline-block; 
 	margin: 0px 9px; 

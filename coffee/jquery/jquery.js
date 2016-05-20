@@ -7,7 +7,7 @@
 			$('.pic .num').append('<li></li>');
 		}
 		$('.pic .num li').first().addClass('on');
-
+		alert(size);
 		//滑动圆点
 		$('.pic .num li').hover(function(){
 			var index=$(this).index();
