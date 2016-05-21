@@ -59,14 +59,14 @@
 }
 
 .img{
-	width: 7000px;
+	width: 6000px;
 	position: absolute;
 	left: 0;
 	top: 0;
 }
 
 .img li{
-	float: left;
+	display: inline;
 }
 
 .num{
