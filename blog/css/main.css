@@ -1,0 +1,346 @@
+nav
+{
+	background-color: transparent;
+	height: 40px;
+}
+
+header
+{
+	background: rgba(0,0,0,0.3);
+}
+
+#banner
+{
+	background-color: transparent;
+	height: 650px;
+	color:#fff;
+}
+
+nav ul 
+{
+	list-style:none;
+	margin:0;
+	float: right;
+}
+
+nav ul li,nav .logo
+{
+	display: inline-block;
+	line-height: 40px;
+	margin-right: 20px;
+}
+
+nav ul li a 
+{
+
+	line-height: inherit;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff
+}
+
+nav .logo
+{
+	float: left;
+	padding-left: 10px;
+}
+
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	top: 180px;
+}
+
+#banner .inner h1
+{
+	line-height: 60px;
+	max-width: 200px;
+	margin:0 auto;
+	height: 60px;
+	border-top:2px solid white;
+	border-bottom: 2px solid white;
+}
+
+.icon-double-angle-down
+{
+	display: inline-block;
+	font-size:14px;
+	font-weight: bold;
+	transform: rotate(90deg);
+	margin-top:10px;
+}
+
+button
+{
+	border:none;
+	background: #009696;
+	color: #eee;
+	padding:10px;
+	font-family: "微软雅黑";
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.banner button
+{
+	padding:14px 40px;
+}
+
+#banner .inner .more
+{
+	margin-top: 150px;
+	font-family: "微软雅黑";
+}
+
+.sub-heading
+{
+	color:#fff;
+	line-height: 30px;
+	margin:30px 0;
+	font-size: 18px;
+}
+
+/*.active
+{
+	border-bottom: 4px solid #fff;
+}*/
+
+ul{
+	margin:0;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+p
+{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.hr
+{
+	width: 100%;
+	margin:20px auto;
+	height: 2px;	
+}
+
+.logo
+{
+	font-size: 20px; 
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.logo a 
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.green-section
+{
+	text-align: center;
+	background-color:#24dab0;
+	color: #fff;
+	padding:100px 0;
+}
+
+.green-section .hr
+{
+	background:#07b990;
+	width: 60%;
+}
+
+.green-section .icon-group .icon
+{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border:1px solid #10b992;
+	transform: rotate(45deg);
+	margin: 20px;
+}
+
+.icon-group
+{
+	margin-top: 60px;
+}
+
+.wrapper
+{
+	max-width: 1080px;
+	margin:0 auto;
+}
+
+.gray-section
+{
+	background: #0b1931;
+}
+
+.gray-section .img-section
+{
+	width: 45%;
+}
+
+.img-section img
+{
+	width: 100%;
+}
+
+.gray-section .text-section
+{
+	width: 55%;
+
+}
+
+.article-preview > div
+{
+	float: left;
+	font-size: 0px;
+}
+
+.article-preview:nth-child(odd)
+{
+	background: rgba(255,255,255,0.05);
+}
+
+.clearlift:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.text-section
+{
+	color: #fff;
+	position: relative;
+	top:68px;
+	left: 50px;
+}
+
+.text-section h2
+{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.text-section .sub-heading
+{
+	font-size: 22px;
+	margin-top: 0;
+}
+
+.text-section p
+{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.text-section > *
+{
+	max-width: 90%;
+}
+
+.purple-section
+{
+	padding: 80px;
+	background:#3F3965;
+	color: #fff;
+}
+
+.purple-section .heading-wrapper
+{
+	text-align: center;
+}
+
+.purple-section .hr
+{
+	background: #373259;
+	width:60%;
+}
+
+.card
+{
+	float: left;
+	width:50%;
+	min-height: 250px;
+	padding: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border:1px solid white;*/
+}
+
+.card:first-child
+{
+	background: rgba(0,0,0,0.04);
+}
+
+.card:nth-child(2)
+{
+	background: rgba(0,0,0,0.08);
+}
+
+.card:nth-child(3)
+{
+	background: rgba(0,0,0,0.12);
+}
+
+.card:nth-child(4)
+{
+	background: rgba(0,0,0,0.16);
+}
+
+.card:nth-child(5)
+{
+	background: rgba(0,0,0,0.20);
+}
+
+.card:nth-child(6)
+{
+	background: rgba(0,0,0,0.24);
+}
+
+footer
+{
+	background: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
+
+ul.share-group
+{
+	display: block;
+	width: 1080px;
+	margin:0 auto;
+	padding:50px;
+}
+
+.share-group li 
+{
+	display: inline-block;
+	padding:10px;
+}
+
+.copy
+{
+	padding:20px;
+}
+
+.main-wrapper
+{
+	background: #444 url(../img/banner.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+}
