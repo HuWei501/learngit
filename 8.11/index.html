@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>json数据封装</title>
+	<link rel="stylesheet" type="text/css" href="./4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+<div id='main'>
+<!-- 	<ul class="dn-menu-wrapper">
+		<li><a href="#"><i class='fa fa-home'></i>首页</a></li>
+		<li><a href="#"><i class='fa fa-cog'></i>设置<span class='fa fa-bars'></span></a>
+			<ul>
+				<li><a href="#">设置字体</a></li>
+				<li><a href="#">设置颜色</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class='fa fa-book'></i>产品</a></li>
+		<li><a href="#"><i class='fa fa-comments'></i>信息<span class='fa fa-bars'></span></a>
+			<ul>
+				<li><a href="#">设置字体</a></li>
+				<li><a href="#">设置颜色</a></li>
+			</ul>
+		</li>
+		<li><a href="#"><i class='fa fa-users'></i>团队</a></li>
+	</ul> -->
+</div>
+	<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./js/dn-menu.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#main').DnMenu({
+				data:[
+					{'text':'首页','iconClass':'fa fa-home','url':'http://www.baidu.com'},
+					{'text':'设置','iconClass':'fa fa-cog','child':[
+						{'text':'设置字体','url':'http://www.baidu.com'},
+						{'text':'设置字体','url':'http://www.baidu.com'}
+					]},
+					{'text':'产品','iconClass':'fa fa-book','url':'http://www.baidu.com'},
+					{'text':'信息','iconClass':'fa fa-comments','child':[
+						{'text':'设置字体','url':'http://www.baidu.com'},
+						{'text':'设置字体','url':'http://www.baidu.com'}
+					]},
+					{'text':'团队','iconClass':'fa fa-users','url':'http://www.baidu.com'}
+				]
+			});
+			//$('#main').data('DnMenu').printLength();
+		});
+	</script>
+</body>
+</html>
