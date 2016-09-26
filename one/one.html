@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">     
+  <meta content="yes" name="apple-mobile-web-app-capable">     
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">     
+  <meta content="telephone=no" name="format-detection">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="MobileOptimized" content="320">
+  <meta name="x5-page-mode" content="app">
+  <meta name="browsermode" content="application">
+  <meta http-equiv="pragma" content="no-cache">  
+  <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">  
+  <meta http-equiv="expires" content="0"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>鏖战实况</title>
+  <link rel="stylesheet" href="css/zhibo.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery.1.10.2.js" type="text/javascript"></script>
+  <script src="js/hls.min.js"></script>
+
+  <script type="text/javascript">
+  !function(){
+    window.mttCumstomJS = true;
+  }();
+  function __mttCreateFrame(path,source){
+    if(document.body){
+      var __mttIFrame=document.createElement('iframe');
+      __mttIFrame.style.display='none';
+      __mttIFrame.src=location.origin+'/'+path;
+      if(source){
+        __mttIFrame.src+='?mttKey='+source;
+      }
+      document.body.appendChild(__mttIFrame);
+      document.body.removeChild(__mttIFrame)
+    }else{
+      setTimeout(__mttCreateFrame,100,path,source);
+    }
+  };
+  </script>
+  <script type="text/javascript">
+  (function(){
+    function __mttPostPageInfo(timerCount){
+      if(document.title.length>0){
+        var mttPageInfo={};
+        mttPageInfo.title=document.title;
+        mttPageInfo.url=location.href;
+        __mttCreateFrame('mttwebcore',encodeURI(JSON.stringify(mttPageInfo)))
+      }else if(timerCount<5){
+        setTimeout(__mttPostPageInfo,200,timerCount++)
+      }
+    }
+    __mttPostPageInfo(0)
+  })();
+  </script>
+  <script type="text/javascript">
+  document.addEventListener('readystatechange',function(event){
+    var mttState={};
+    mttState.state=document.readyState;
+    __mttCreateFrame('mttwebcore',JSON.stringify(mttState))
+  },false);
+  </script>
+</head>
+<body>
+<header>
+  <div id="play">
+    <div id="tangmu"></div>
+  </div>
+  <div class="tammudiv">
+    <input type="text" id="text" value="" placeholder="可以发言提问哦~">
+    <input type="hidden" name="formhash" class="formhash" value="d59e1f2f">
+    <input type="hidden" name="posttime" id="posttime" value="1473914508">
+    <input type="button" class="fasong" style=" " value="发 送" onclick="tangmu();">
+  </div>
+</header>
+
+<header>
+  <div class="secodediv">
+    <div class="secodediv-top">
+      <img src="img/raw_1473644212.png" style="float:left;">
+      <p class="title">华夏讲堂</p>
+    </div>
+    <video id="videoplayer" width="100%" height="100%" controls="controls" webkit-playsinline="">    
+      <!-- <source src="F:/迅雷下载/[迅雷仓XunLeiCang.Com]阿甘正传.BD1280超清特效国英双语双字.mp4" type="video/mp4"> -->
+    </video>
+    <div>
+      <div class="onlinemem">
+        <img src="img/renwu.png" style="width:16px; height:12px; padding:10px 1px 0 12px;">9638
+      </div>
+      <div class="img-gif">
+        <div style="margin-top:6px; width:96%; height:auto">
+          
+        </div>
+      </div>
+    </div>
+    <div class="tabHeader">
+      <li class="curMenu"><a href="#">互动区</a></li>
+      <li><a href="#">讲师简介</a></li>
+      <li><a href="#">华夏讲堂</a></li>
+    </div>
+    <!-- <div id="qqvideo-overlay-0" style="width: 100%; height: 100%; position: absolute; top: 0px; background-color: rgba(0, 0, 0, 0) !important;">
+    </div> -->
+  </div>
+</header>
+
+<header>
+<div id="container">
+  <div class="tabContainer">
+    <div class="tab_contents">
+      <div class="tabContent">
+        <div class="quyuyi">                 
+          <div class="postrows">
+            <ol class="view_detail" id="view_detail">
+              <li><font color="#00a5e0">小新_EmkHO:</font>哦</li>
+              <li><font color="#00a5e0">防空司令_QEUup:</font>河南郏县：汝河里的电工比鱼都多</li>
+              <li><font color="#00a5e0">老叶_kNMpa:</font>到处都是电工，相关管理部门不作为。</li>
+              <li><font color="#00a5e0">习国华_glTuq:</font>益阳桃江电鱼药鱼的成疯了。都没地方钓鱼了。惨了惨了。</li>
+              <li><font color="#00a5e0">千变万化_SZArQ:</font>电渔实在可恶，求有关部门管一管</li>
+            </ol>
+          </div>               
+        </div>
+      </div>           
+      <div class="tabContent nodisplay">
+        <div class="teacherDetails">   
+          <!-- <div class="xiangqingg1">
+            <div class="leftg">
+              <img src="img/1474429773.png">
+            </div>
+            <div class="ritg">
+              <p>微信号：<span>1010101010110</span></p>
+            </div>
+          </div> -->
+          <div class="xiangqingg2">
+              <h2>课题：<span>股市介绍</span></h2>
+              <p>讲师：<span>小微</span></p>
+              <p>讲课时间：<span>9月17日 09:00-14:00</span></p>
+              <p>其他介绍：<span>本次课程免费本次课程免费本次课程免费本次课程免费本次课程免费本次课程免费</span></p>
+          </div>
+        </div>
+      </div>             
+      <div class="tabContent nodisplay">
+        <div class="companyDetails">
+          <div class="xiangqingg1">
+            <div class="leftg">
+              <img src="img/164619vdhm5ww2gt4y5hbt.jpg">
+            </div>
+            <div class="ritg">
+              <h1>9月17-18日 【高手在线】带你直击大师巡回赛（四川南部站）鏖战实况</h1>
+              <p>主持人：小微</p>
+              <p>9月17日 09:00  14:00  9月18日 10:30  16:30 </p>
+            </div>
+          </div>
+          <div class="xiangqingg2">
+            9月17-18日【高手在线】带你直击大师巡回赛（四川南部站）鏖战实况，大师云集谁能杀出重围?【高手在线】为你放送现场实况，更有高手邓刚、郑斌等一众大师在微直播中为你全面解析战术和饵料秘诀。还等神马？大家赶紧锁定快乐垂钓网微直播吧！<br><br>
+            微直播时间安排：<br>   		
+            9月17日  09:00    【高手在线】带你直击大师巡回赛（四川南部站）鏖战实况<br>
+            14:00     全程微直播48晋24<br>
+            9月18日  10:30	  揭秘八强饵料配方及战术<br>
+            16:30    冠军饵料配方大放送<br>
+            17:00   【爸爸去钓鱼】最有综艺范儿钓王邱廷军对父亲爱的告白<br>
+          </div>
+        </div>             
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+<!--弹框-->
+<div class="pop_msg"></div>
+
+
+<iframe id="qqvideobridge" frameloader="0" src="qqvideosniff://notifySrcs?sources=[{&quot;title&quot;:&quot;9月17-18日 【高手在线】带你直击大师巡回赛（四川南部站）鏖战实况&quot;}]" style="display: none; height: 0px; width: 0px;"></iframe>
+
+<script src="js/main.js"></script>
+<script src="js/jweixin-1.0.0.js" type="text/javascript"></script>
+<script>
+if(Hls.isSupported()) {
+  var video = document.getElementById('videoplayer');
+  var hls = new Hls();
+  hls.loadSource('http://www.streambox.fr/playlists/test_001/stream.m3u8');
+  hls.attachMedia(video);
+  hls.on(Hls.Events.MANIFEST_PARSED,function() {
+    video.play();
+  });
+}
+</script>
+<script>
+  // 注意：所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。 
+  // 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+  // 完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+
+  wx.config({
+    appId: 'wx431ab2888cdf0237',
+    timestamp: 1473914508,
+    nonceStr: 'b6rhqgHnXcB0rA9n',
+    signature: '0a8b4037f150e0b82878bf4d18bd9a223d27fa5c',
+    jsApiList: [
+      'onMenuShareTimeline', 'onMenuShareAppMessage'// 所有要调用的 API 都要加到这个列表中
+    ]
+  });
+  wx.ready(function () {
+    // 在这里调用 API
+      wx.onMenuShareTimeline({
+        title: '9月17-18日 【高手在线】带你直击大师巡回赛（四川南部站）鏖战实况', // 分享标题
+        link: '', // 分享链接
+        imgUrl: 'http://wap.happyfishing.com.cn/data/attachment/portal/201607/21/164619vdhm5ww2gt4y5hbt.jpg?version='+Math.random()*10,
+         // 分享图标
+        success: function () { 
+            // 用户确认分享后执行的回调函数
+        },
+        cancel: function () { 
+            // 用户取消分享后执行的回调函数
+        }
+    });
+     
+    wx.onMenuShareAppMessage({
+        title: '9月17-18日 【高手在线】带你直击大师巡回赛（四川南部站）鏖战实况', // 分享标题
+        desc: "欢迎观看由时代钓具冠名的快乐垂钓网微直播，学钓技，交朋友，和钓鱼达人们零距离接触！", // 分享描述
+        link: '', // 分享链接
+        imgUrl: 'http://wap.happyfishing.com.cn/data/attachment/portal/201607/21/164619vdhm5ww2gt4y5hbt.jpg?version='+Math.random()*10, 
+        // 分享图标
+        type: '', // 分享类型,music、video或link，不填默认为link
+        dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+        success: function () { 
+            // 用户确认分享后执行的回调函数
+        },
+        cancel: function () { 
+            // 用户取消分享后执行的回调函数
+        }
+    });
+ 
+  });
+</script>
+</body>
+</html>

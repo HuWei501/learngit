@@ -1,0 +1,115 @@
+body{
+  -webkit-text-size-adjust: 100%;
+}
+.nodisplay{
+  display: none;
+}
+header .tammudiv{
+  margin:0; 
+  background-color:#fff; 
+  padding:5px 0 5px 0; 
+  width:100%; 
+  height:auto; 
+  border-top:1px #CCCCCC solid; 
+  position:fixed; 
+  bottom:0; 
+  z-index:9999;
+}
+header .tammudiv #text{
+  float:left; 
+  width:65%; 
+  background-color:#f3f3f3; 
+  border:1px #dadada solid; 
+  height:20px; 
+  line-height:20px; 
+  margin:0 0 0 4%;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+header .secodediv{
+  position: relative;
+}
+header .secodediv .secodediv-top{
+  width:100%; 
+  height:26px;
+  padding-left:5px;
+}
+header .secodediv .secodediv-top img{
+  padding: 0;
+  margin:0;
+  height: 22px;
+  width: 22px;
+}
+header .secodediv .secodediv-top .title{
+  color:#fff;
+  padding:0 0 0 27px;
+  margin:0;
+  width:150px;
+  height: 22px;
+  line-height: 22px;
+}
+header .secodediv .onlinemem{
+  float:left;
+  width:25%; 
+  height:30px; 
+  background-color:#000; 
+  line-height:24px; 
+  text-align:left; 
+  color:#fff;  
+  margin-top:180px; 
+}
+header .secodediv .img-gif{
+  float:right;
+  width:75%; 
+  background-color:#000; 
+  color:#fff;
+  font-family:"微软雅黑";
+  font-size:9px; 
+  height:30px;
+  margin-top:180px; 
+  overflow:hidden;
+}
+header .secodediv .tabHeader{
+  height:28px; 
+  line-height:28px; 
+  font-size:16px;
+}
+.tabContainer .tab_contents .tabContent{
+  margin-top: 10px;
+}
+.tabContainer .tab_contents .tabContent .quyuyi .postrows{
+  margin-top:0px; 
+  height:100%;
+}
+.tabContainer .tab_contents .tabContent .quyuyi .postrows .view_detail{
+  height: 225px; 
+  overflow-y: scroll; 
+  position: absolute; 
+  top: 280px;
+}
+.tabContainer .tab_contents .tabContent .teacherDetails,
+.tabContainer .tab_contents .tabContent .companyDetails{
+  text-align:left;
+  font-family:"微软雅黑"; 
+  width:90%; 
+  margin-left:5%; 
+  font-size:12px; 
+  color:#666; 
+  line-height:24px;
+}
+/* 弹框 */
+.pop_msg{
+  position:absolute; 
+  z-index:999; 
+  top: 45%; 
+  left:40%; 
+  background:#000; 
+  padding:0 10px 0 10px; 
+  height:30px; 
+  line-height:30px; 
+  color:#fff;
+  webkit-border-radius: 10px;
+  border-radius: 10px; 
+  text-align:center; 
+  display:none;
+}
