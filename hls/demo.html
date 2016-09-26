@@ -5,25 +5,25 @@
 <meta http-equiv="Access-Control-Allow-Origin" content="*">
 <title>hls视频</title>
   <link href="./css/video.css" rel="stylesheet">
- <!--  <script src="./js/video.js"></script>
-  <script src="./js/videojs-contrib-hls.min.js"></script> -->
-  <script src="./js/hls.min.js"></script>
+  <script src="./js/video.js"></script>
+  <script src="./js/videojs-contrib-hls.min.js"></script>
+  <!-- <script src="./js/hls.min.js"></script> -->
 </head>
 <body>
   <video id="my_video_1" class="video-js vjs-default-skin" controls autoplay preload="auto" width="1000" height="500" data-setup='{}'>
-    <!-- <source src="http://www.streambox.fr/playlists/x36xhzz/x36xhzz.m3u8" type="application/x-mpegURL"> -->
+    <source src="src/z.m3u8" type="application/x-mpegURL">
   </video>
   
 <script>
-if(Hls.isSupported()) {
-    var video = document.getElementById('my_video_1');
-    var hls = new Hls();
-    hls.loadSource('http://www.streambox.fr/playlists/test_001/stream.m3u8');
-    hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
-}
+// if(Hls.isSupported()) {
+//     var video = document.getElementById('my_video_1');
+//     var hls = new Hls();
+//     hls.loadSource('http://www.streambox.fr/playlists/test_001/stream.m3u8');
+//     hls.attachMedia(video);
+//     hls.on(Hls.Events.MANIFEST_PARSED,function() {
+//       video.play();
+//   });
+// }
 </script>
   
 </body>
